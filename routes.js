@@ -1,10 +1,31 @@
 const todos = [
-    { id: '1', title: 'First Todo' },
-    { id: '2', title: 'Second Todo' },
-    { id: '3', title: 'Third Todo' },
-    { id: '4', title: 'Fourth Todo' },
-    { id: '5', title: 'Fifth Todo' },
-    { id: '6', title: 'Sixth Todo' },
+    { 
+        id: '1', 
+        title: 'First Todo', 
+        completed: true,
+    },
+    { 
+        id: '2', 
+        title: 'Second Todo',
+        completed: true,
+     },
+    { id: '3',
+     title: 'Third Todo',
+     completed: true,
+    },
+    { id: '4',
+     title: 'Fourth Todo',
+     completed: true,
+     },
+    { id: '5',
+     title: 'Fifth Todo',
+     completed: true,
+     },
+    { id: '6', 
+    title: 'Sixth Todo' ,
+    completed: true,
+
+    },
 ];
 
 // // Data Source, could be replaced with a real database
